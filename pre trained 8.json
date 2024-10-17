@@ -1,0 +1,152 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey, what genre movies would you like us to \n recommend?",
+          "Hi there, what genre movies would you like us to \n recommend?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting!",
+          "Have a nice day!",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "funny",
+        "patterns": [
+          "Tell me a joke!",
+          "Tell me something funny!",
+          "Do you know a joke?"
+        ],
+        "responses": [
+          "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+          "What did the buffalo say when his son left for college? Bison."
+        ]
+      },
+      {
+        "tag": "Thriller",
+        "patterns": [
+          "Thriller",
+          "Clifhanger",
+          "Suspense",
+          "Nail-biter",
+          "Hair-raiser"
+        ],
+        "responses": [
+          "Ooo nice choice!! \n Here are the movies that will make you bite your nails:"
+        ]
+      },
+      {
+        "tag": "Horror",
+        "patterns": [
+          "Horror",
+          "Scary movies"
+        ],
+        "responses": [
+          "Here are the movies that will make jump out of your chair!!\n Be careful!!",
+          " WARNING!! \n DO NOT TURN OFF THE LIGHTS WHILE \n WATCHING THESE MOVIES:"
+        ]
+      },
+      {
+        "tag": "Action",
+        "patterns": [
+          "Action movies",
+          "Action",
+          "Fighting movies",
+          "War",
+          "War movies"
+        ],
+        "responses": [
+          "Ready for some action?\n Here are some of the best rated action movies:"
+        
+        ]
+      },
+      {
+        "tag": "Comedy",
+        "patterns": [
+          "Comedy",
+          "Hysterical",
+          "Comedy movies",
+          "Funny movies",
+          "Funny"
+        ],
+        "responses": [
+          "Here are the movies that will make you fall from \n your chair!!",
+          "Wanna have a good laugh? \n Here are some of the movies that will do the job!!"
+        ]
+      },
+      {
+        "tag": "Romance",
+        "patterns": [
+          "Romantic movies",
+          "Romance",
+          "love story",
+          "heart breaking movies"
+        ],
+        "responses": [
+          "Here are the movies that will make your heart \n flutter"
+          
+        ]
+      },
+      {
+        "tag": "New",
+        "patterns": [
+          "New movies",
+          "New",
+          "Recent releases",
+          "Recent",
+          "Anything"
+        ],
+        "responses": [
+          "Out of content? \n No worries!! Here are the recent movies:"
+          
+        ]
+      },
+      
+      {
+        "tag": "Animation",
+        "patterns": [
+          "Kids movies",
+          "Children movies",
+          "Animation",
+          "Animated"
+        ],
+        "responses": [
+          "Wanna watch something magical? Here are some of the best movies:"
+          
+        ]
+      },
+      {
+        "tag": "Fantasy",
+        "patterns": [
+          "Fantasy",
+          "Unreal",
+          "magical"
+        ],
+        "responses": [
+          "Wanna watch something just our minds can think of? \n Here are some of the best fantasy movies:"
+        
+        ]
+      }
+    
+
+      
+    ]
+}
