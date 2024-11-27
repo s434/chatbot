@@ -102,26 +102,26 @@ class ChatApplication:
 
         if x == "Thriller":
          global my_image,m2,m3,m4
-         my_image = PhotoImage(file="C:\\Users\\SAFIYA ATEEQ\\Desktop\\Chatbot\\Pictures\\the-call4.gif")
+         my_image = PhotoImage(file="Pictures/the-call4.gif")
          #self.text_widget.image_create(END,pady =10,padx=10,  image=my_image)
          label1=Label(self.text_widget, image=my_image, cursor = "hand2")
          label1.pack()
          label1.bind("<Button-1>", lambda e: callback("https://www.netflix.com/ae-en/title/81342505"))
          self.text_widget.window_create('end',window=label1)
          
-         m2 = PhotoImage(file="C:\\Users\\SAFIYA ATEEQ\\Desktop\\Chatbot\\Pictures\\shuuter.gif")
+         m2 = PhotoImage(file="Pictures/shuuter.gif")
          label2=Label(self.text_widget, image=m2, cursor = "hand2")
          label2.pack()
          label2.bind("<Button-1>", lambda e: callback("https://www.netflix.com/title/70095139"))
          self.text_widget.window_create('end',window=label2)
          
-         m3 = PhotoImage(file="C:\\Users\\SAFIYA ATEEQ\\Desktop\\Chatbot\\Pictures\\parasite.gif")
+         m3 = PhotoImage(file="Pictures/parasite.gif")
          label3=Label(self.text_widget, image=m3, cursor = "hand2")
          label3.pack()
-         label3.bind("<Button-1>", lambda e: callback("https://w88.bemovies.co/movie/parasite-41796"))
+         label3.bind("<Button-1>", lambda e: callback("https://www.sonyliv.com/movies/parasite-korean-1000230983?utm_source=Google&utm_medium=WatchNow&utm_campaign=1000230983"))
          self.text_widget.window_create('end',window=label3)
 
-         m4 = PhotoImage(file="C:\\Users\\SAFIYA ATEEQ\\Desktop\\Chatbot\\Pictures\\frac.gif")
+         m4 = PhotoImage(file="Pictures/frac.gif")
          label4=Label(self.text_widget, image=m4,cursor = "hand2")
          label4.pack()
          label4.bind("<Button-1>", lambda e: callback("https://www.netflix.com/ae-en/title/80223997"))
@@ -131,25 +131,25 @@ class ChatApplication:
 
         if x == "Comedy":
          global m5,m6,m7,m8
-         m5 = PhotoImage(file="C:\\Users\\SAFIYA ATEEQ\\Desktop\\Chatbot\\Pictures\\yes.gif")
+         m5 = PhotoImage(file="Pictures/yes.gif")
          label5=Label(self.text_widget, image=m5, cursor = "hand2")
          label5.pack()
          label5.bind("<Button-1>", lambda e: callback("https://www.netflix.com/ae-en/title/80223997"))
          self.text_widget.window_create('end',window=label5)
 
-         m6 = PhotoImage(file="C:\\Users\\SAFIYA ATEEQ\\Desktop\\Chatbot\\Pictures\\game.gif")
+         m6 = PhotoImage(file="Pictures/game.gif")
          label6=Label(self.text_widget, image=m6, cursor = "hand2")
          label6.pack()
          label6.bind("<Button-1>", lambda e: callback("https://www.netflix.com/ae-en/title/80201565"))
          self.text_widget.window_create('end',window=label6)
 
-         m7 = PhotoImage(file="C:\\Users\\SAFIYA ATEEQ\\Desktop\\Chatbot\\Pictures\\kung.gif")
+         m7 = PhotoImage(file="Pictures/kung.gif")
          label7=Label(self.text_widget, image=m7, cursor = "hand2")
          label7.pack()
          label7.bind("<Button-1>", lambda e: callback("https://www.netflix.com/ae-en/title/70075480"))
          self.text_widget.window_create('end',window=label7)
 
-         m8 = PhotoImage(file="C:\\Users\\SAFIYA ATEEQ\\Desktop\\Chatbot\\Pictures\\wel.gif")
+         m8 = PhotoImage(file="Pictures/wel.gif")
          label8=Label(self.text_widget, image=m8, cursor = "hand2")
          label8.pack()
          label8.bind("<Button-1>", lambda e: callback("https://www.netflix.com/ae-en/title/70091146"))
@@ -159,62 +159,62 @@ class ChatApplication:
 
         if x == "Horror":
          global m9,m10,m11,m12
-         m9 = PhotoImage(file="C:\\Users\\SAFIYA ATEEQ\\Desktop\\Chatbot\\Pictures\\orp.gif")
+         m9 = PhotoImage(file="Pictures/orp.gif")
          label9=Label(self.text_widget, image=m9, cursor = "hand2")
          label9.pack()
          label9.bind("<Button-1>", lambda e: callback("https://www.netflix.com/ae-en/title/70113004"))
          self.text_widget.window_create('end',window=label9)
 
-         m10 = PhotoImage(file="C:\\Users\\SAFIYA ATEEQ\\Desktop\\Chatbot\\Pictures\\conj.gif")
+         m10 = PhotoImage(file="Pictures/conj.gif")
          label10=Label(self.text_widget, image=m10, cursor = "hand2")
          label10.pack()
          label10.bind("<Button-1>", lambda e: callback("https://www.netflix.com/ae-en/title/70251894"))
          self.text_widget.window_create('end',window=label10)
 
-         m11 = PhotoImage(file="C:\\Users\\SAFIYA ATEEQ\\Desktop\\Chatbot\\Pictures\\hush.gif")
+         m11 = PhotoImage(file="Pictures/hush.gif")
          label11=Label(self.text_widget, image=m11, cursor = "hand2")
          label11.pack()
          label11.bind("<Button-1>", lambda e: callback("https://www.netflix.com/ae-en/title/800918794"))
          self.text_widget.window_create('end',window=label11)
 
-         m12 = PhotoImage(file="C:\\Users\\SAFIYA ATEEQ\\Desktop\\Chatbot\\Pictures\\spl.gif")
+         m12 = PhotoImage(file="Pictures/spl.gif")
          label12=Label(self.text_widget, image=m12, cursor = "hand2")
          label12.pack()
-         label12.bind("<Button-1>", lambda e: callback("https://w88.bemovies.co/movie/split-19806"))
+         label12.bind("<Button-1>", lambda e: callback("https://www.primevideo.com/dp/amzn1.dv.gti.e7e743c7-c2ab-4e40-9f83-a9456db26177?autoplay=0&ref_=atv_cf_strg_wb"))
          self.text_widget.window_create('end',window=label12)
 
 
 
         if x == "Romance":
          global m13,m14,m15,m26,m27
-         m13 = PhotoImage(file="C:\\Users\\SAFIYA ATEEQ\\Desktop\\Chatbot\\Pictures\\me.gif")
+         m13 = PhotoImage(file="Pictures/me.gif")
          label13=Label(self.text_widget, image=m13, cursor = "hand2")
          label13.pack()
          label13.bind("<Button-1>", lambda e: callback("https://www.netflix.com/ae-en/title/80043744"))
          self.text_widget.window_create('end',window=label13)
 
-         m14 = PhotoImage(file="C:\\Users\\SAFIYA ATEEQ\\Desktop\\Chatbot\\Pictures\\bef.gif")
+         m14 = PhotoImage(file="Pictures/bef.gif")
          label14=Label(self.text_widget, image=m14, cursor = "hand2")
          label14.pack()
-         label14.bind("<Button-1>", lambda e: callback("https://w88.bemovies.co/movie/before-sunrise-17659"))
+         label14.bind("<Button-1>", lambda e: callback("https://www.primevideo.com/dp/amzn1.dv.gti.92a9f74b-a7aa-845b-720b-1cfb3b8700c8?autoplay=0&ref_=atv_cf_strg_wb"))
          self.text_widget.window_create('end',window=label14)
 
-         m15 = PhotoImage(file="C:\\Users\\SAFIYA ATEEQ\\Desktop\\Chatbot\\Pictures\\abt.gif")
+         m15 = PhotoImage(file="Pictures/abt.gif")
          label15=Label(self.text_widget, image=m15, cursor = "hand2")
          label15.pack()
-         label15.bind("<Button-1>", lambda e: callback("https://w88.bemovies.co/movie/about-time-19112"))
+         label15.bind("<Button-1>", lambda e: callback("https://www.primevideo.com/dp/amzn1.dv.gti.aea9f76c-f669-bfbf-2bfe-ac8c7e046fd4?autoplay=0&ref_=atv_cf_strg_wb"))
          self.text_widget.window_create('end',window=label15)
 
-         m26 = PhotoImage(file="C:\\Users\\SAFIYA ATEEQ\\Desktop\\Chatbot\\Pictures\\la.gif")
+         m26 = PhotoImage(file="Pictures/la.gif")
          label16=Label(self.text_widget, image=m26, cursor = "hand2")
          label16.pack()
-         label16.bind("<Button-1>", lambda e: callback("https://w88.bemovies.co/movie/la-la-land-19613"))
+         label16.bind("<Button-1>", lambda e: callback("https://www.primevideo.com/dp/amzn1.dv.gti.1ab8a100-8125-e6ce-3912-4d26b084d5ff?autoplay=0&ref_=atv_cf_strg_wb"))
          self.text_widget.window_create('end',window=label16)
 
-         m27 = PhotoImage(file="C:\\Users\\SAFIYA ATEEQ\\Desktop\\Chatbot\\Pictures\\cl.gif")
+         m27 = PhotoImage(file="Pictures/cl.gif")
          label17=Label(self.text_widget, image=m27, cursor = "hand2")
          label17.pack()
-         label17.bind("<Button-1>", lambda e: callback("https://w88.bemovies.co/movie/clouds-63841"))
+         label17.bind("<Button-1>", lambda e: callback("https://ondisneyplus.disney.com/movie/clouds"))
          self.text_widget.window_create('end',window=label17)
 
 
@@ -222,25 +222,25 @@ class ChatApplication:
 
         if x == "Action":
          global m16,m17,m18,m32
-         m32 = PhotoImage(file="C:\\Users\\SAFIYA ATEEQ\\Desktop\\Chatbot\\Pictures\\kin.gif")
+         m32 = PhotoImage(file="Pictures/kin.gif")
          label18=Label(self.text_widget, image=m32, cursor = "hand2")
          label18.pack()
-         label18.bind("<Button-1>", lambda e: callback("https://w88.bemovies.co/movie/kingsman-the-secret-service-19542"))
+         label18.bind("<Button-1>", lambda e: callback("https://www.netflix.com/in/title/80013870"))
          self.text_widget.window_create('end',window=label18)
 
-         m16 = PhotoImage(file="C:\\Users\\SAFIYA ATEEQ\\Desktop\\Chatbot\\Pictures\\ext.gif")
+         m16 = PhotoImage(file="Pictures/ext.gif")
          label19=Label(self.text_widget, image=m16, cursor = "hand2")
          label19.pack()
          label19.bind("<Button-1>", lambda e: callback("https://www.netflix.com/ae-en/title/80230399"))
          self.text_widget.window_create('end',window=label19)
 
-         m17 = PhotoImage(file="C:\\Users\\SAFIYA ATEEQ\\Desktop\\Chatbot\\Pictures\\13.gif")
+         m17 = PhotoImage(file="Pictures/13.gif")
          label20=Label(self.text_widget, image=m17, cursor = "hand2")
          label20.pack()
-         label20.bind("<Button-1>", lambda e: callback("https://w88.bemovies.co/movie/13-hours-the-secret-soldiers-of-benghazi-18842"))
+         label20.bind("<Button-1>", lambda e: callback("https://www.netflix.com/in/title/80067930"))
          self.text_widget.window_create('end',window=label20)
 
-         m18 = PhotoImage(file="C:\\Users\\SAFIYA ATEEQ\\Desktop\\Chatbot\\Pictures\\old.gif")
+         m18 = PhotoImage(file="Pictures/old.gif")
          label21=Label(self.text_widget, image=m18, cursor = "hand2")
          label21.pack()
          label21.bind("<Button-1>", lambda e: callback("https://www.netflix.com/ae-en/title/81038963"))
@@ -262,45 +262,45 @@ class ChatApplication:
 
         if x == "Animation":
          global m28,m19,m20,m21
-         m28 = PhotoImage(file="C:\\Users\\SAFIYA ATEEQ\\Desktop\\Chatbot\\Pictures\\how.gif")
+         m28 = PhotoImage(file="Pictures/how.gif")
          label22=Label(self.text_widget, image=m28, cursor = "hand2")
          label22.pack()
          label22.bind("<Button-1>", lambda e: callback("https://www.netflix.com/ae-en/title/70109893"))
          self.text_widget.window_create('end',window=label22)
 
-         m19 = PhotoImage(file="C:\\Users\\SAFIYA ATEEQ\\Desktop\\Chatbot\\Pictures\\kung.gif")
+         m19 = PhotoImage(file="Pictures/kung.gif")
          label23=Label(self.text_widget, image=m19, cursor = "hand2")
          label23.pack()
          label23.bind("<Button-1>", lambda e: callback("https://www.netflix.com/ae-en/title/70075480"))
          self.text_widget.window_create('end',window=label23)
 
-         m20 = PhotoImage(file="C:\\Users\\SAFIYA ATEEQ\\Desktop\\Chatbot\\Pictures\\luca.gif")
+         m20 = PhotoImage(file="Pictures/luca.gif")
          label24=Label(self.text_widget, image=m20, cursor = "hand2")
          label24.pack()
-         label24.bind("<Button-1>", lambda e: callback("https://w88.bemovies.co/movie/luca-70342"))
+         label24.bind("<Button-1>", lambda e: callback("https://www.hotstar.com/in/movies/luca/1260063730"))
          self.text_widget.window_create('end',window=label24)
 
-         m21 = PhotoImage(file="C:\\Users\\SAFIYA ATEEQ\\Desktop\\Chatbot\\Pictures\\in.gif")
+         m21 = PhotoImage(file="Pictures/in.gif")
          label25=Label(self.text_widget, image=m21, cursor = "hand2")
          label25.pack()
-         label25.bind("<Button-1>", lambda e: callback("https://w88.bemovies.co/movie/inside-out-19725"))
+         label25.bind("<Button-1>", lambda e: callback("https://www.hotstar.com/in/movies/inside-out/1260018307"))
          self.text_widget.window_create('end',window=label25)
 
         if x == "Fantasy":
          global m22,m23,m29
-         m22 = PhotoImage(file="C:\\Users\\SAFIYA ATEEQ\\Desktop\\Chatbot\\Pictures\\mon.gif")
+         m22 = PhotoImage(file="Pictures/mon.gif")
          label26=Label(self.text_widget, image=m22, cursor = "hand2")
          label26.pack()
          label26.bind("<Button-1>", lambda e: callback("https://www.netflix.com/title/80022607"))
          self.text_widget.window_create('end',window=label26)
 
-         m29 = PhotoImage(file="C:\\Users\\SAFIYA ATEEQ\\Desktop\\Chatbot\\Pictures\\sp.gif")
+         m29 = PhotoImage(file="Pictures/sp.gif")
          label27=Label(self.text_widget, image=m29, cursor = "hand2")
          label27.pack()
          label27.bind("<Button-1>", lambda e: callback("https://www.netflix.com/ae-en/title/60023642"))
          self.text_widget.window_create('end',window=label27)
 
-         m23 = PhotoImage(file="C:\\Users\\SAFIYA ATEEQ\\Desktop\\Chatbot\\Pictures\\lo.gif")
+         m23 = PhotoImage(file="Pictures/lo.gif")
          label28=Label(self.text_widget, image=m23, cursor = "hand2")
          label28.pack()
          label28.bind("<Button-1>", lambda e: callback("https://www.netflix.com/se-en/title/60004484"))
@@ -308,28 +308,28 @@ class ChatApplication:
 
         if x =="New":
          global m24,my_image2,m31,m30
-         m24 = PhotoImage(file="C:\\Users\\SAFIYA ATEEQ\\Desktop\\Chatbot\\Pictures\\pen.gif")
+         m24 = PhotoImage(file="Pictures/pen.gif")
          label29=Label(self.text_widget, image=m24, cursor = "hand2")
          label29.pack()
          label29.bind("<Button-1>", lambda e: callback("https://www.netflix.com/ae-en/title/81350434"))
          self.text_widget.window_create('end',window=label29)
 
-         my_image2 = PhotoImage(file="C:\\Users\\SAFIYA ATEEQ\\Desktop\\Chatbot\\Pictures\\the-call4.gif")
+         my_image2 = PhotoImage(file="Pictures/the-call4.gif")
          label30=Label(self.text_widget, image=my_image2, cursor = "hand2")
          label30.pack()
          label30.bind("<Button-1>", lambda e: callback("https://www.netflix.com/ae-en/title/81342505"))
          self.text_widget.window_create('end',window=label30)
 
-         m31 = PhotoImage(file="C:\\Users\\SAFIYA ATEEQ\\Desktop\\Chatbot\\Pictures\\yes.gif")
+         m31 = PhotoImage(file="Pictures/yes.gif")
          label31=Label(self.text_widget, image=m31, cursor = "hand2")
          label31.pack()
          label31.bind("<Button-1>", lambda e: callback("https://www.netflix.com/ae-en/title/80223997"))
          self.text_widget.window_create('end',window=label31)
 
-         m30 = PhotoImage(file="C:\\Users\\SAFIYA ATEEQ\\Desktop\\Chatbot\\Pictures\\cl.gif")
+         m30 = PhotoImage(file="Pictures/cl.gif")
          label32=Label(self.text_widget, image=m30, cursor = "hand2")
          label32.pack()
-         label32.bind("<Button-1>", lambda e: callback("https://w88.bemovies.co/movie/clouds-63841"))
+         label32.bind("<Button-1>", lambda e: callback("https://ondisneyplus.disney.com/movie/clouds"))
          self.text_widget.window_create('end',window=label32)
 
 
